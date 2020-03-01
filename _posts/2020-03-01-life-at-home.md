@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "The days restricted at home"
-subtitle:   " Happy but scaring..."
+subtitle:   "Happy but scaring..."
 date:       2020-03-01 10:30:00
-author:     "DrX"
+author:     "Dr.X"
 header-img: "img/post-bg-20200301.jpg"
 tags:
     - 生活
