@@ -1,11 +1,11 @@
 # Site settings
-title: Dr.Xiang Blog
-SEOTitle: 博士的博客 | Dr.Xiang Blog
+title: Dr Xiang Blog
+SEOTitle: 博士的博客 | Dr Xiang Blog
 header-img: img/home-bg.jpg
 email: yonghong.xiang@gmail.com
 description: "Don't be serious, this is my playground only. | For fun，love artificial intelligence, image processing, video processing, graph theory, interconnection networks for parallel processing.
 keyword: "yonghong xiang, fall down detection, portable device, artificial intelligence, image processing"
-url: "https://yonghong.github.io"              # your host, for absolute URL
+url: ""              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
