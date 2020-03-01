@@ -1,5 +1,5 @@
 # Dr Xiang's blog
 
-##### This blog is based on [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+### Do you know me? No matter yes or no, from here, you could get to learn something about me.
 
 ## The blog is only for recording my personal activities and thinkings.
