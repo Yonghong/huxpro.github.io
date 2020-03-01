@@ -71,6 +71,11 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "just for fun"
 sidebar-avatar:      # use absolute URL, seeing it's used in both `/` and `/about/`
 
+# emptyArray: []
+
+# comments:
+#   receiver: https://{{your-receiver-site}}/api/PostComment}}
+
 
 
 # Featured Tags
