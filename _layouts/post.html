@@ -53,17 +53,17 @@ layout: default
 
                 <hr>
 
-                {% if site.duoshuo_share && site.duoshuo_username %}
+                <!-- {% if site.duoshuo_share && site.duoshuo_username %} -->
                 <!-- 多说 Share start -->
                 </style>
-                <div class="ds-share"
+                <!-- <div class="ds-share"
                     style="text-align: right"
                     data-thread-key="{{page.id}}"
                     data-title="{{page.title}}"
                     data-url="{{site.url}}{{site.baseurl}}{{page.url}}"
                     data-images="{{ site.url }}{{site.baseurl}}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
                     data-content="{{ content | strip_html | truncate:80 }} | {{ site.SEOTitle }} " >
-                    <!-- <div class="ds-share-inline">
+                    <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
                         <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
                         <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
@@ -72,11 +72,11 @@ layout: default
                       </ul>
                       <div class="ds-share-icons-more">
                       </div>
-                    </div> -->
+                    </div>
                 <hr>
-                </div>
+                </div> -->
                 <!-- 多说 Share end-->
-                {% endif %}
+                <!-- {% endif %} -->
 
 
                 <ul class="pager">
@@ -93,17 +93,17 @@ layout: default
                 </ul>
 
 
-                {% if site.duoshuo_username %}
+                <!-- {% if site.duoshuo_username %} -->
                 <!-- 多说评论框 start -->
-                <div class="comment">
+                <!-- <div class="comment">
                     <div class="ds-thread"
                         data-thread-key="{{page.id}}"
                         data-title="{{page.title}}"
                         data-url="{{site.url}}{{site.baseurl}}{{page.url}}" >
                     </div>
-                </div>
+                </div> -->
                 <!-- 多说评论框 end -->
-                {% endif %}
+                <!-- {% endif %} -->
 
                 {% if site.disqus_username %}
                 <!-- disqus 评论框 start -->
@@ -153,9 +153,9 @@ layout: default
     </div>
 </article>
 
-{% if site.duoshuo_username %}
+<!-- {% if site.duoshuo_username %} -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     // dynamic User by Hux
     var _user = '{{site.duoshuo_username}}';
 
@@ -169,9 +169,9 @@ layout: default
         (document.getElementsByTagName('head')[0]
          || document.getElementsByTagName('body')[0]).appendChild(ds);
     })();
-</script>
+</script> -->
 <!-- 多说公共JS代码 end -->
-{% endif %}
+<!-- {% endif %} -->
 
 
 {% if site.disqus_username %}

@@ -47,12 +47,12 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: yonghongxiang
 
 # Duoshuo settings
-duoshuo_username: yonghong
+# duoshuo_username: 
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -68,7 +68,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "just for fun"
+sidebar-about-description: "go forward, nothing can stop your feet ..."
 sidebar-avatar:      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # emptyArray: []
