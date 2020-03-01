@@ -5,6 +5,7 @@ subtitle:   "Happy but scaring..."
 date:       2020-03-01 10:30:00
 author:     "Dr.X"
 header-img: "img/post-bg-20200301.jpg"
+commenting: open
 tags:
     - 生活
 ---
