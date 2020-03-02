@@ -4,7 +4,7 @@ title:      "Review of blog development work"
 subtitle:   "Happy but scaring..."
 date:       2020-03-02 08:33:00
 author:     "Dr.X"
-header-img: "img/post-gb-20200302.png"
+header-img: "img/post-bg-20200301.jpg"
 commenting: open
 tags:
     - 休闲
