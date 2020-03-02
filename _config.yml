@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: yonghong.xiang@gmail.com
 description: "Just for fun."
 keyword: "AI, image processing"
-url: ""              # your host, for absolute URL
+url: "https://yonghong.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -28,7 +28,10 @@ paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-
+# # Build settings
+# theme: minima
+plugins:
+  - jekyll-feed
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -98,4 +101,5 @@ friends: [
     }
 ]
 
-theme: jekyll-theme-leap-day
+theme: minima
+# theme: jekyll-theme-leap-day
