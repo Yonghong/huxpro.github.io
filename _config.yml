@@ -101,5 +101,5 @@ friends: [
     }
 ]
 
-theme: minima
-# theme: jekyll-theme-leap-day
+# theme: minima
+theme: jekyll-theme-leap-day
