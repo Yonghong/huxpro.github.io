@@ -21,7 +21,7 @@ git命令行莫名其妙的出现乱码，中文显示不正确，多次设置�
 
 Terminal &rarr; Preferences &rarr; Profiles &rarr; Advanced &rarr; International &rarr; Text encoding: Unicode (UTF-8)
 
-<img src="https://yonghong.github.io/img/terminal-config.jpg" width="480"/>
+<img src="https://yonghong.github.io/img/terminal-config.jpg" />
 
 
 ## git设置
@@ -44,7 +44,7 @@ Terminal &rarr; Preferences &rarr; Profiles &rarr; Advanced &rarr; International
     quotepath = false 
     # status引用路径不再是八进制（反过来说就是允许显示中文了）
 ```
-<img src="https://yonghong.github.io/img/gitconfig-config.png" width="480"/>
+<img src="https://yonghong.github.io/img/gitconfig-config.png"/>
 
 # 结束
 
