@@ -1,10 +1,10 @@
 # Site settings
 title: Dr Xiang Blog
-SEOTitle: 向博士博客 | Dr Xiang Blog
+SEOTitle: 向博士博客 | Dr Xiang\'s' Blog
 header-img: img/home-bg.jpg
 email: yonghong.xiang@gmail.com
-description: "Just for fun."
-keyword: "AI, image processing"
+description: "生活的乐趣在于所有的收获都来之不易"
+keyword: "AI, image processing, web platform design"
 url: "https://yonghong.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
