@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "单维浩简历"
+title:      "XXX简历"
 subtitle:   "应届生求职简历"
 date:       2020-03-07 23:30:00
 author:     "Dr.X"
