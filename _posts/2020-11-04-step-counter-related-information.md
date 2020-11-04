@@ -28,7 +28,7 @@ tags:
     * Realted Chinese blog: <a href ="https://blog.csdn.net/guang09080908/article/details/41411679">Android 计步器开发</a>
 
 
-<h1>Algorithm adapted in Matlab</h1>
+<h1>Algorithm adopted in Matlab</h1>
 
 <a href ="https://ww2.mathworks.cn/help/supportpkg/arduino/ref/gyroscope-based-pedometer.html">Matlab Gyroscope based pedometer page</a>: The pedometer algorithm is implemented inside the MATLAB function block in the Arduino model.
 
@@ -39,7 +39,7 @@ tags:
 
 <h2>The algorithm file link</h2>
 
-- <a href = "https://ieeexplore.ieee.org/document/6553971">A gyroscopic data based pedometer algorithm</a> (IEEE official site).
+- <a href = "https://ieeexplore.ieee.org/document/6553971">A gyroscopic data based pedometer algorithm</a> (IEEE official site) or <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm.pdf">Direct Download Link</a>.
 - <a href = "https://blog.csdn.net/lean_siege_lion/article/details/40087379">一种基于陀螺仪传感器的准确计步器算法</a>: The Translated Chinese Version.
 
 <h2> The matlab code</h2>
