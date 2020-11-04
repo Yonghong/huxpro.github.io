@@ -119,16 +119,16 @@ title('Gyro Sensor X-axis Reading');
 
 <h1>Related papers</h1>
 
-1. 2018 基于MEMS加速度传感器的步数检测算法研究综述: <a href="../file/2018基于MEMS加速度传感器的步数检测算法研究综述.pdf">PDF download</a>
-2. 2017 A New Dataset for Evaluating Pedometer Performance: <a href="../file/22017-A-New-Dataset-for-Evaluating-Pedometer-Performance.pdf">PDF download</a>
-3. 2016 Step Detection Algorithm For Accurate Distance Estimation Using Dynamic Step Length: <a href="../file/2016-Step-Detection-Algorithm-For-Accurate-Distance-Estimation-Using-Dynamic-Step-Length.pdf">PDF download</a>
-4. 2016 Interrupt-Based Step-Counting to Extend Battery Life in an Activity Monitor: <a href="../file/2016-Interrupt-Based-Step-Counting-to-Extend-Battery-Life-in-an-Activity-Monitor.pdf">PDF download</a>
+1. 2018 基于MEMS加速度传感器的步数检测算法研究综述: <a href="https://yonghong.github.io/file/2018基于MEMS加速度传感器的步数检测算法研究综述.pdf">PDF download</a>
+2. 2017 A New Dataset for Evaluating Pedometer Performance: <a href="https://yonghong.github.io/file/22017-A-New-Dataset-for-Evaluating-Pedometer-Performance.pdf">PDF download</a>
+3. 2016 Step Detection Algorithm For Accurate Distance Estimation Using Dynamic Step Length: <a href="https://yonghong.github.io/file/2016-Step-Detection-Algorithm-For-Accurate-Distance-Estimation-Using-Dynamic-Step-Length.pdf">PDF download</a>
+4. 2016 Interrupt-Based Step-Counting to Extend Battery Life in an Activity Monitor: <a href="https://yonghong.github.io/file/2016-Interrupt-Based-Step-Counting-to-Extend-Battery-Life-in-an-Activity-Monitor.pdf">PDF download</a>
 5. 2015 A DECISION TREE BASED PEDOMETER AND ITS IMPLEMENTATION ON THE ANDROID PLATFORM: <a href="../file/2015-A-DECISION-TREE-BASED-PEDOMETER-AND-ITS-IMPLEMENTATION-ON-THE-ANDROID-PLATFORM.pdf">PDF download</a>
-6. 2013 Accurate Pedometer for Smartphones: <a href="../file/2013-Accurate-Pedometer-for-Smartphones.pdf">PDF download</a>
-7. 2013 A Gyroscope based Accurate Pedometer Algorithm: <a href="../file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm.pdf">English Version</a>, <a href="../file/2013-A-Gyroscope-Based-Accurate-Pedometer-Algorithm-Chinese-Version.pdf">Chinese Version</a>, <a href="../file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm_MATLAB_File.pdf">Matlab Code</a>
-8.  2010 利用3轴数字加速度计实现功能全面的计步器设计: <a href="../file/2010-利用3轴数字加速度计实现功能全面的计步器设计.pdf">PDF download</a>
-9.  2010 Full-Featured Pedometer Design Realized with 3-Axis Digital Accelerometer: <a href="../file/2010-Full-Featured-Pedometer-Design-Realized-with-3-Axis-Digital-Accelerometer.pdf">PDF download</a>
-10. 2003 Comparison of Pedometer and Accelerometer Accuracy under Controlled Conditions: <a href = "2003-Comparison-of-Pedometer-and-Accelerometer-Accuracy-under-Controlled-Conditions.pdf">PDF download</a>
+6. 2013 Accurate Pedometer for Smartphones: <a href="https://yonghong.github.io/file/2013-Accurate-Pedometer-for-Smartphones.pdf">PDF download</a>
+7. 2013 A Gyroscope based Accurate Pedometer Algorithm: <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm.pdf">English Version</a>, <a href="../file/2013-A-Gyroscope-Based-Accurate-Pedometer-Algorithm-Chinese-Version.pdf">Chinese Version</a>, <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm_MATLAB_File.pdf">Matlab Code</a>
+8.  2010 利用3轴数字加速度计实现功能全面的计步器设计: <a href="https://yonghong.github.io/file/2010-利用3轴数字加速度计实现功能全面的计步器设计.pdf">PDF download</a>
+9.  2010 Full-Featured Pedometer Design Realized with 3-Axis Digital Accelerometer: <a href="https://yonghong.github.io/file/2010-Full-Featured-Pedometer-Design-Realized-with-3-Axis-Digital-Accelerometer.pdf">PDF download</a>
+10. 2003 Comparison of Pedometer and Accelerometer Accuracy under Controlled Conditions: <a href = "https://yonghong.github.io/file/2003-Comparison-of-Pedometer-and-Accelerometer-Accuracy-under-Controlled-Conditions.pdf">PDF download</a>
 
 &emsp;&emsp;
 <br/>
