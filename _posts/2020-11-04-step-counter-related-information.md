@@ -38,10 +38,9 @@ tags:
     * MPU-9250 sensor
 
 <h2>The algorithm file link</h2>
-<a href = "https://ieeexplore.ieee.org/document/6553971">A gyroscopic data based pedometer algorithm</a> (IEEE official site).
 
-<h2>The Chinese Version</h2>
-<a href = "https://blog.csdn.net/lean_siege_lion/article/details/40087379">一种基于陀螺仪传感器的准确计步器算法</a>: a personal blog website.
+- <a href = "https://ieeexplore.ieee.org/document/6553971">A gyroscopic data based pedometer algorithm</a> (IEEE official site).
+- <a href = "https://blog.csdn.net/lean_siege_lion/article/details/40087379">一种基于陀螺仪传感器的准确计步器算法</a>: The Translated Chinese Version.
 
 <h2> The matlab code</h2>
 
