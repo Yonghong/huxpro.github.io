@@ -20,11 +20,12 @@ tags:
 2. <a href="https://github.com/MarcusNordstrom/C-Step-Counter">C-Step-Counter</a>: A bachelor thesis repo (C).
 3. <a href="https://github.com/zhouguangfu09/StepCounter">StepCounter</a>: a small example about android pedometer.
 4. <a href="https://github.com/MikeCodesDotNET/My-StepCounter">My-StepCounter</a>: Xamarin iOS & Android Starter pedometer sample.
-5. <a href="https://github.com/nerajbobra/embedded_pedometer">embedded_pedometer</a>: Accelerometer-based pedometer algorithm for embedded applications (C).
+5. <a href="https://github.com/nerajbobra/embedded_pedometer">embedded_pedometer</a>: Accelerometer-based pedometer algorithm for embedded applications (C). 
+    * The related paper: <a href =https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/p3225-morris.pdf>2014 RecoFit: Using a Wearable Sensor to Find, Recognize, and Count Repetitive Exercises</a>, or <a href = "https://yonghong.github.io/file/2014-RecoFit_Using-a-Wearable-Sensor-to-Find-Recognize-and-Count-Repetitive-Exercises.pdf">direct download</a>.
 6. <a href="https://github.com/ecruhue/Pedometer-Step-Counting-Algorithm">Pedometer-Step-Counting-Algorithm</a>: collected real time walking data(patterns) with gyroscope, use Fast Fourier Transformation to extract the clustering features, and build the step counting algorithm for pedometer (Python). 
 7. <a href="https://github.com/ecruhue/Pedometer-Step-Counting-Algorithm">Pedometer-Step-Counting-Algorithm</a>: Lightweight pedometer app for Android using the hardware step sensor (Java).
 8. <a href = "https://github.com/Akshayvs/gyroscope-step-counter-library">gyroscope-step-counter-library</a>: This code is a mini implementation of the step counting logic implemented in most of the fitness appliciations on our smartphones and fitness bands like FitBit.
-9. <a href = "https://github.com/zhouguangfu09/StepCounter">Step-Counter</a>: A small example about android pedometer.
+9.  <a href = "https://github.com/zhouguangfu09/StepCounter">Step-Counter</a>: A small example about android pedometer.
     * Realted Chinese blog: <a href ="https://blog.csdn.net/guang09080908/article/details/41411679">Android 计步器开发</a>
 
 
@@ -123,11 +124,18 @@ title('Gyro Sensor X-axis Reading');
 3. 2016 Step Detection Algorithm For Accurate Distance Estimation Using Dynamic Step Length: <a href="https://yonghong.github.io/file/2016-Step-Detection-Algorithm-For-Accurate-Distance-Estimation-Using-Dynamic-Step-Length.pdf">PDF download</a>
 4. 2016 Interrupt-Based Step-Counting to Extend Battery Life in an Activity Monitor: <a href="https://yonghong.github.io/file/2016-Interrupt-Based-Step-Counting-to-Extend-Battery-Life-in-an-Activity-Monitor.pdf">PDF download</a>
 5. 2015 A DECISION TREE BASED PEDOMETER AND ITS IMPLEMENTATION ON THE ANDROID PLATFORM: <a href="../file/2015-A-DECISION-TREE-BASED-PEDOMETER-AND-ITS-IMPLEMENTATION-ON-THE-ANDROID-PLATFORM.pdf">PDF download</a>
-6. 2013 Accurate Pedometer for Smartphones: <a href="https://yonghong.github.io/file/2013-Accurate-Pedometer-for-Smartphones.pdf">PDF download</a>
-7. 2013 A Gyroscope based Accurate Pedometer Algorithm: <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm.pdf">English Version</a>, <a href="../file/2013-A-Gyroscope-Based-Accurate-Pedometer-Algorithm-Chinese-Version.pdf">Chinese Version</a>, <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm_MATLAB_File.pdf">Matlab Code</a>
-8.  2010 利用3轴数字加速度计实现功能全面的计步器设计: <a href="https://yonghong.github.io/file/2010-利用3轴数字加速度计实现功能全面的计步器设计.pdf">PDF download</a>
-9.  2010 Full-Featured Pedometer Design Realized with 3-Axis Digital Accelerometer: <a href="https://yonghong.github.io/file/2010-Full-Featured-Pedometer-Design-Realized-with-3-Axis-Digital-Accelerometer.pdf">PDF download</a>
-10. 2003 Comparison of Pedometer and Accelerometer Accuracy under Controlled Conditions: <a href = "https://yonghong.github.io/file/2003-Comparison-of-Pedometer-and-Accelerometer-Accuracy-under-Controlled-Conditions.pdf">PDF download</a>
+6. 2014 RecoFit: Using a Wearable Sensor to Find, Recognize, and Count Repetitive Exercises： <a href = "https://yonghong.github.io/file/2014-RecoFit_Using-a-Wearable-Sensor-to-Find-Recognize-and-Count-Repetitive-Exercises.pdf">PDF Downlaod</a> or from <a href =https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/p3225-morris.pdf>online</a>.
+7. 2013 Accurate Pedometer for Smartphones: <a href="https://yonghong.github.io/file/2013-Accurate-Pedometer-for-Smartphones.pdf">PDF download</a>
+8. 2013 A Gyroscope based Accurate Pedometer Algorithm: <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm.pdf">English Version</a>, <a href="../file/2013-A-Gyroscope-Based-Accurate-Pedometer-Algorithm-Chinese-Version.pdf">Chinese Version</a>, <a href="https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm_MATLAB_File.pdf">Matlab Code</a>
+9. Towards the run and walk activity classification
+through step detection - An android application：<a href="https://yonghong.github.io/file/2012-Towards_the_run_and_walk_activity_classi.pdf">PDF download</a>
+9.  2010 利用3轴数字加速度计实现功能全面的计步器设计: <a href="https://yonghong.github.io/file/2010-利用3轴数字加速度计实现功能全面的计步器设计.pdf">PDF download</a>
+10. 2010 Full-Featured Pedometer Design Realized with 3-Axis Digital Accelerometer: <a href="https://yonghong.github.io/file/2010-Full-Featured-Pedometer-Design-Realized-with-3-Axis-Digital-Accelerometer.pdf">PDF download</a>
+11. 2003 Comparison of Pedometer and Accelerometer Accuracy under Controlled Conditions: <a href = "https://yonghong.github.io/file/2003-Comparison-of-Pedometer-and-Accelerometer-Accuracy-under-Controlled-Conditions.pdf">PDF download</a>
+
+<h1>Discuss</h1>
+A Smartphone pedometer algorithm based on accelerometer is discussed by Oner et al. <a href="https://yonghong.github.io/file/2012-Towards_the_run_and_walk_activity_classi.pdf">[Towards the run and walk activity classification through step detection - An android application]</a> and their algorithm demonstrated sufficient accuracies at walking speeds higher than 90 beats per second (bps), but its performance degrades as speeds fall below 90bps. Their algorithm has over counted steps and the error was approximately 20% at 80 bps, 60% at 70 bps and 90% at 60 bps.
+
 
 &emsp;&emsp;
 <br/>
