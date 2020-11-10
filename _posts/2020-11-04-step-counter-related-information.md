@@ -47,74 +47,7 @@ tags:
 
 Authors: Sampath Jayalath, Nimsiri Abhayasinghe and Iain Murray Contact: <a href="mailto:adasdjsampath@gmail.com">adasdjsampath@gmail.com</a>
 
-Zero Crossing With Signal Strength (MATLAB code)
-
-```matlab
-%Zero Crossing with Signal Strength Algorithm%
-clc
-%Reading the Data File in .csv Format
-fileName='walk.csv'; start=1;
-stop=1600;
-fs=100; m=stop-start+1; t=0:1/fs:(m-1)*(1/fs);
-Gx=csvread(fileName, start, 3, [start,3,stop,3]); Gyro=Gx;
-%///////////////////Defining Variables/////////////////%
-in=[0,0,0,0,0,0,0]; Ou=[0,0,0,0,0,0,0];
-global counter1; counter1=0;
-global counter2; counter2=0;
-global var_k; var_k=0;
-global i; i=0;
-global gyro_up_peak; gyro_up_peak=0;
-global gyro_down_peak; gyro_down_peak=0;
-%Variable Set by the Training Algorithm
-global threshold1; threshold1=0.05;
-%Variable Used to Update Step Count
-global maincount; maincount=0;
-global gyro_count_enable;
-gyro_count_enable=0;
-%///////////////////End of Variable Definition/////////////////
-
-%///////////////////Gyroscope-X axis Data Filtering with Butterworth Lowpass Filter at 2Hz/////////////////
-for i=start:stop
-in(1)=in(2);
-in(2)=in(3); in(3)=in(4); in(4)=in(5); in(5)=in(6); in(6)=in(7); in(7)=Gyro(i);
-Ou(1)=Ou(2); Ou(2)=Ou(3); Ou(3)=Ou(4); Ou(4)=Ou(5); Ou(5)=Ou(6); Ou(6)=Ou(7);
-filt1(i)=((in(1)+in(7))*0.000000000853160)+((in(2)+in(6))*0.000000005118957 )+((in(3)+in(5))*0.000000012797393)+((in(4))*0.000000017063191 )+((Ou(1))*(- 0.7844171769))+((Ou(2))*(4.8969248914))+((Ou(3))*(- 12.7416173292))+((Ou(4))*(17.6873761799))+((Ou(5))*(- 13.8155108061))+((Ou(6))*(5.7572441862));
-Ou(7)=filt1(i);
-i=i+1;
-%Detecting a Zero Cross
-%Gyro Countdown
-if((Ou(7)<0) && (Ou(6)>0)&& (gyro_count_enable==1)) counter1=1;
-counter2=0;
-var_k=i;
-if(gyro_up_peak >threshold1) maincount=maincount+1;
-end end
-%Detecting a Zero Cross
-%Gyro Countup
-if((Ou(7)>0) && (Ou(6)<0) && (gyro_count_enable==1)) counter2=1;
-counter1=0;
-var_k=i;
-if(gyro_down_peak <-threshold1) maincount=maincount+1;
-end end
-%Detecting Upward Peak
-if((Ou(7)<Ou(6)) && (Ou(6)>Ou(5) && (counter2==1))) gyro_up_peak = Ou(6);
-end
-%Detecting Downward Peak
-if((Ou(7)>Ou(6)) && (Ou(6)<Ou(5) && (counter1==1))) gyro_down_peak = Ou(6);
-end
-%Sample Time Out
-if(((counter1==1)&&(i<var_k+15))||((counter2==1)&&(i<var_k+15))) gyro_count_enable=0
-else
-end
-end
-maincount
-%//////////////////End Of The Main Algorithm//////////////////
-%Plotting the Gyro-X axis data
-figure;
-plot(t,filt1);
-grid;
-xlabel('Time (s)'); ylabel('Gyro-X(rad/s)');
-title('Gyro Sensor X-axis Reading');
-```
+Zero Crossing With Signal Strength (<a href = "https://yonghong.github.io/file/2013-A-Gyroscope-based-Accurate-Pedometer-Algorithm_MATLAB_File.pdf">MATLAB code</a>)
 
 <h1>Hardware and applications</h1>
 
