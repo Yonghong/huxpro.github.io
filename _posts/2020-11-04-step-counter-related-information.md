@@ -116,6 +116,13 @@ xlabel('Time (s)'); ylabel('Gyro-X(rad/s)');
 title('Gyro Sensor X-axis Reading');
 ```
 
+<h1>Hardware and applications</h1>
+
+1. The paper <a href="https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/SEN0250_Web.pdf">Gravity: BMI160 6-Axis Inertial Motion
+Sensor SKU: SEN0250</a> provided by DFROBERT has step count algorithm embeded. 
+The library is uploaded in Github <a href = "https://github.com/DFRobot/DFRobot_BMI160">DFRobot/DFRobot_BMI160</a> which includes step count algorithm. The official business website of DFRobot is <a href = "https://wiki.dfrobot.com/Gravity__BMI160_6-Axis_Inertial_Motion_Sensor_SKU__SEN0250">HERE</a>.
+The BMI160 datasheet is <a href = "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf">HERE</a>, which describes that there is a step detector and step counter in the sensor.
+
 
 <h1>Related papers</h1>
 
