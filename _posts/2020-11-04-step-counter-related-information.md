@@ -123,6 +123,9 @@ Sensor SKU: SEN0250</a> provided by DFROBERT has step count algorithm embeded.
 The library is uploaded in Github <a href = "https://github.com/DFRobot/DFRobot_BMI160">DFRobot/DFRobot_BMI160</a> which includes step count algorithm. The official business website of DFRobot is <a href = "https://wiki.dfrobot.com/Gravity__BMI160_6-Axis_Inertial_Motion_Sensor_SKU__SEN0250">HERE</a>.
 The BMI160 datasheet is <a href = "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf">HERE</a>, which describes that there is a step detector and step counter in the sensor.
 
+2. BMI160 has its own step counter, and the algorithm has already embedded into the sensor. To enable the step counter function, the only thing one need to do is to read out the step number from the sensor. The UNO Arduino library has been developed and is open sourced. There are two open source libraries:
+   1. <a href = "https://github.com/Yonghong/DFRobot_BMI160">The *DFRobot_BMI160* Library</a>.
+   2. <a href = "https://github.com/Yonghong/MH-BMI160">The *MH-BMI160* Library</a>
 
 <h1>Related papers</h1>
 
