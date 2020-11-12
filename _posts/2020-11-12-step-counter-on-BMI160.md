@@ -125,7 +125,8 @@ tags:
     - 鲁棒模式（更少假阳性，但更多假阴性）
         - STEP_CONF[0]: 0x1D (0b0001 1101)
         - STEP_CONF[1]: 0x07 (0b0000 0111) (the step_cnt_en bit is set to 0)
-- 计步器寄存器可以从寄存器(0x78-0x79)STEP_CNT读取，计步器可以通过发送0xB2到寄存器(0x7E)CMD进行重置。
+- 计步器寄存器可以从寄存器(0x78-0x79)STEP_CNT读取;
+- 计步器可以通过发送0xB2到寄存器(0x7E)CMD进行重置。
 
 <h3>寄存器(0x78-0x79)STEP_CNT</h3>
 
@@ -176,6 +177,83 @@ tags:
 <img src="/img/bmi160-STEP-CNT-1-0x79.png"  alt="Register STEP_CNT" />
 
 - step_cnt:自从上次POR（Power-On Reset）或者步数重置后的总步数。
+
+
+<h4>寄存器(0x7A)STEP_CONF[0]</h4>
+
+<table border="1">
+  <tr>
+    <th>bit</th>
+    <th>7</th>
+    <th>6</th>
+    <th>5</th>
+    <th>4</th>
+    <th>3</th>
+    <th>2</th>
+    <th>1</th>
+    <th>0</th>
+  </tr>
+  <tr>
+    <td>item</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td bgcolor=yellow>min_threshold</td>
+    <td bgcolor=yellow>min_threshold</td>
+    <td bgcolor=lightgreen>steptime_min</td>
+    <td bgcolor=lightgreen>steptime_min</td>
+    <td bgcolor=lightgreen>steptime_min</td>
+  </tr>
+</table>
+
+- steptime_min: 选择最小可检测的走一步的时间间隔，偏置（offset）为1。占三个二进制位(0x7A低三位)：steptime_min[0], steptime_min[1], steptime_min[2]。
+- min_threshold：检测走步的最小合加速度，占两个二进制位（0x7A低第四和第五位）：min_threshold[0]和min_threshold[1]。
+
+<h4>寄存器(0x7E)CMD</h4>
+
+- 寄存器名称：(0x7E)CMD
+- 地址： 0x7E
+- 重置：na
+- 模式：R
+- 描述：命令寄存器触发类似于软重置、NVM（Non-volatile Memory，固定存储器，非易失存储器）编程等的操作等。
+- 定义
+
+<img src="/img/bmi160-CMD-0x7E.png"  alt="Register CMD" />
+
+<table border="1">
+  <tr>
+    <th>bit</th>
+    <th>7</th>
+    <th>6</th>
+    <th>5</th>
+    <th>4</th>
+    <th>3</th>
+    <th>2</th>
+    <th>1</th>
+    <th>0</th>
+  </tr>
+  <tr>
+    <td>item</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+    <td bgcolor=yellow>cmd</td>
+  </tr>
+</table>
+
+命令执行期间，寄存器(0x7E)CMD被占用，占用期间的所有写入都被丢弃，当有写入被丢弃时，设置寄存器(0x02) ERR_REG的值drop_cmd_err。
+
+用于软重置的时间需要考虑300μs的额外系统启动时间，以用于PMU切换。
+
+重置计步器：
+
+CMD：step_cnt_clr: 0xB2
+
+触发计步器技术重置，适应于所有的三种计步模式。
 
 <h2> 总结</h2>
 设置好计步器的参数以后（三个模式选择一个），即可在需要的时候从步数寄存器中读取当前时间段的步数，并在适当的时候重置步数寄存器。
