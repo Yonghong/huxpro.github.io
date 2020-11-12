@@ -60,6 +60,22 @@ The BMI160 datasheet is <a href = "https://www.bosch-sensortec.com/media/boschse
    1. <a href = "https://github.com/Yonghong/DFRobot_BMI160">The *DFRobot_BMI160* Library</a>.
    2. <a href = "https://github.com/Yonghong/MH-BMI160">The *MH-BMI160* Library</a>
 
+- about BMI160 hardware settings:
+  - 2.6.3 Step Detector (Accel)
+    A step detection is the detection of a single step event, while the user is walking or running. The step detector is triggered when a peak is detected in the acceleration magnitude (vector length of 3D acceleration). In order to achieve a robust step detection the peak needs to exceed a configurable threshold *min_threshold* and a minimum delay time *min_steptime* between two consecutive peaks needs to be observed. 
+    The step detector can be configured in three modes:
+    * Normal mode (default setting, recommended for most applications)
+    * Sensitive mode (can be used for light weighted, small persons)
+    * Robust mode (can be used, if many false positive detections are observed)
+
+    More details can be found in Register (0x7A-0x7B) STEP_CONF and the according step counter application note.
+    The step detector is the trigger for a step counter. 
+  - 2.11.37 Register (0x7A-0x7B) STEP_CONF
+    ADDRESS 0x7A (2 byte)
+    RESET na
+    MODE R
+    DESCRIPTION Contains configuration of the step detector DEFINITION
+
 <h1>Related papers</h1>
 
 1. 2018 基于MEMS加速度传感器的步数检测算法研究综述: <a href="https://yonghong.github.io/file/2018基于MEMS加速度传感器的步数检测算法研究综述.pdf">PDF download</a>
