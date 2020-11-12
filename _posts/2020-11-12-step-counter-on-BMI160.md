@@ -21,7 +21,7 @@ tags:
 2. 不需要额外的算法开发和验证：只需要将硬件和参数做好配置即可，无需自己写代码收集数据并进行计算；
 3. 稳定性高：内置于传感器中的计步算法，经过长时间和大量测试，稳定性高。
 
-<h2>BMI160规格书第28页2.6.3节Step Detector（Accel）</h2>
+<h2><a href = "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf">BMI160规格书</a>第28页2.6.3节Step Detector（Accel）</h2>
 
 为了获得鲁棒的走步检测结果，需要配置合加速度的最小阈值min_threshold（超过这个阈值才会考虑开始检测是否走步）和两个连续峰值之间的最少延迟min_steptime（连个连续峰值之间的时间间隔超过这个阈值才会被认为走了一步），基于这2个参数的不同配置，可以形成3种不同的走步检测模式：
 
@@ -31,7 +31,7 @@ tags:
 
 更多细节信息可以参考寄存器(0x7A-0x7B)STEP_CONF以及相应的计步器应用。走步检测器触发计步器进行计步。更多细节请参考2.7节。
 
-<h2>BMI160规格书第41页2.7节Step Counter</h2>
+<h2><a href = "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi160-ds000.pdf">BMI160规格书</a>第41页2.7节Step Counter</h2>
 
 计步器通过累加走步检测中断进行计步。基于更加复杂的算法，计步器具有比走步检测器更高的准确性和比走步检测中断更大的延迟。
 
@@ -253,7 +253,7 @@ tags:
 
 CMD：step_cnt_clr: 0xB2
 
-触发计步器技术重置，适应于所有的三种计步模式。
+触发计步器计数重置，适应于所有的三种计步模式。
 
 <h2> 总结</h2>
 设置好计步器的参数以后（三个模式选择一个），即可在需要的时候从步数寄存器中读取当前时间段的步数，并在适当的时候重置步数寄存器。
