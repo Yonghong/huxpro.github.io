@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Step Counter on *Bosch* BMI-160 Sensor"
+title:      "Step Counter on Bosch BMI-160 Sensor"
 subtitle:   "independent implementation guide on MCU"
 date:       2020-11-12 17:18:00
 author:     "Dr.X"
