@@ -13,7 +13,7 @@ tags:
 
 <h1>Step Counter on Based on Bosch BMI-160</h1>
 
-<h2>BMI自带计步功能</h2>
+<h2>博世BMI160自带计步功能</h2>
 
 博世的传感器BMI160自带的计步功能，使用传感器自带的功能具有以下优势：
 
@@ -42,11 +42,11 @@ tags:
 <img src="/img/bmi160-register.png"  alt="Register Map" />
 
 
-<h3>(0x7A- 0x7B)STEP_CONF寄存器</h3>
+<h3>(0x7A-0x7B)STEP_CONF寄存器</h3>
 
 - 包含2个字节：
-  - 0x7A）STEP_CONF_0和
-  - 0x7B）STEP_CONF_1
+  - (0x7A)STEP_CONF_0和
+  - (0x7B)STEP_CONF_1
 - 寄存器地址：0x7A（2个字节）
 - 重置：na
 - 模式：R
@@ -72,7 +72,7 @@ tags:
     <th>0</th>
   </tr>
   <tr>
-    <td>item</td>
+    <td>0x7A</td>
     <td></td>
     <td></td>
     <td></td>
@@ -102,7 +102,7 @@ tags:
     <th>0</th>
   </tr>
   <tr>
-    <td>item</td>
+    <td>0x7B</td>
     <td></td>
     <td></td>
     <td></td>
@@ -143,7 +143,7 @@ tags:
     <th>0</th>
   </tr>
   <tr>
-    <td>item</td>
+    <td>0x79</td>
     <td bgcolor=yellow>step_cnt</td>
     <td bgcolor=yellow>step_cnt</td>
     <td bgcolor=yellow>step_cnt</td>
@@ -154,7 +154,7 @@ tags:
     <td bgcolor=yellow>step_cnt</td>
   </tr>
   <tr>
-    <td>item</td>
+    <td>0x78</td>
     <td bgcolor=yellow>step_cnt</td>
     <td bgcolor=yellow>step_cnt</td>
     <td bgcolor=yellow>step_cnt</td>
