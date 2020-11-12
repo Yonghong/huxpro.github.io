@@ -170,7 +170,7 @@ tags:
 - 模式：R
 - 描述：包含步数
 - 定义：
-- 
+
 <img src="/img/bmi160-STEP-CNT-0-0x78.png"  alt="Register STEP_CNT" />
 
 <img src="/img/bmi160-STEP-CNT-1-0x79.png"  alt="Register STEP_CNT" />
