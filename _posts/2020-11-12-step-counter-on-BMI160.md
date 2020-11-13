@@ -11,9 +11,9 @@ tags:
     - research
 ---
 
-<h1>Step Counter on Based on Bosch BMI-160</h1>
+<h1>Step Counter Based on Bosch BMI-160</h1>
 
-<h2>博世BMI160自带计步功能</h2>
+<h2>博世BMI160自带的计步功能</h2>
 
 博世的传感器BMI160自带的计步功能，使用传感器自带的功能具有以下优势：
 
