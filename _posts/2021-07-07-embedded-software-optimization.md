@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "About Wearable Device Algorithm Code Optimization"
-subtitle:   "embedded, algorithm, optimization, etc., wearable devices fall detection "
+title:      "Wearable Device Algorithm Code Optimization"
+subtitle:   " falldown detection algorithm code optimization "
 date:       2021-07-07 18:18:18
 author:     "Dr.X"
 header-img: "img/20210707softwareoptimization.jpg"
