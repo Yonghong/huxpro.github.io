@@ -4,7 +4,7 @@ title:      "Video Stream Download and Merge"
 subtitle:   " video is divided into small files with extension .ts, to download and the merge them into one large mp4 file "
 date:       2021-07-31 21:26:20
 author:     "Dr.X"
-header-img: "img/20210731waic2021.jpg"
+header-img: "img/20210731waic2021.png"
 commenting: open
 tags:
     - video download
