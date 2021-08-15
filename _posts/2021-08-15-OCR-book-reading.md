@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Dive into OCR"
-subtitle:   " scene text understanding with deep learning "
+title:      "Reading Record for an OCR book"
+subtitle:   " Dive into OCR: scene text understanding with deep learning "
 date:       2021-08-15 15:35:20
 author:     "Dr.X"
 header-img: "img/OCRbookreading/cover.jpg"
@@ -40,9 +40,6 @@ The code in the book can be found from github:
 - [H-DIBCO 2014 Dataset and Evaluation Tool](http://users.iit.demokritos.gr/~bgat/HDIBCO2014/benchmark/)
 - [H-DIBCO 2016 Dataset and Evaluation Tool](http://vc.ee.duth.gr/h-dibco2016/benchmark/)
 - [H-DIBCO 2018 Dataset and Evaluation Tool](http://vc.ee.duth.gr/h-dibco2018/benchmark/)
-- []()
-- []()
-- []()
 
 
 ## &#x2764; OCR相关术语：
@@ -129,7 +126,7 @@ another similar picture：
 [Multi-Scale Fully Convolutional Neural Network](https://export.arxiv.org/pdf/1708.03276) 是Chris Tensmeyer 等人于 2017 年提出来的，利用多尺度全卷积神经网络对文档图像进行二值化，并在 DIBCO 和 PLM 这两个公开数据集上均取得了较好的结果。传统的全局或局部阈值忽略了像素点间的排列，边缘检测、马尔可夫随机场等方法对于前景的形状又存在很强的偏置，但是Fully Convolutional Network（FCN）能从训练数据中学习并挖掘出像素点在空间上的联系，而不是依赖于在局部形状上人工设置的偏置。
 
 FCN模型的结构如下：
-![FCN模型结构](../img/OCRbookreading/MSF-CNN_architecture.png "FCN模型结构") 
+![FCN模型结构](img/OCRbookreading/MSF-CNN_architecture.png "FCN模型结构") 
 
 ### 其他方法
 
