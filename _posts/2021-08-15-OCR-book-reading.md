@@ -48,9 +48,9 @@ The code in the book can be found from github:
 
 ## &#x2764; Traditional OCR procedure
 
-![TOCRP](https://s2.51cto.com/oss/202103/25/e70879f9c17fb5ac6f60172d3d3e6c6a.jpg)
+<!-- ![TOCRP](https://s2.51cto.com/oss/202103/25/e70879f9c17fb5ac6f60172d3d3e6c6a.jpg)
 
-another similar picture：
+another similar picture： -->
 
 ![TOCRP](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9iYnMtaW1nLmh1YXdlaWNsb3VkLmNvbS9ibG9ncy9pbWcvMTU3NzEwNTQ0NjcyODUwNC5wbmc?x-oss-process=image/format,png)
 
@@ -58,13 +58,21 @@ another similar picture：
 自然场景图像的信息更加丰富，具有极大的多样性和复杂性。比如说，**文字**可能来自不同的**语言**，在每一种语言下，可能还包含**多种字母**。每种字母又可以有不同的**大小、字体、颜色、亮度、对比度**等。同时，文字的**排列和对齐方式**也不尽相同，**横向、竖向、弯曲**的情况都有可能。图像的非文字区域可能有与文字区域相似的纹理，比如窗户、树叶、栅栏、砖墙等。因为拍摄角度的问题，图像文字还存在**形变**问题（透视变换、仿射变换等）。此外，**光照、低对比度、模糊断裂、残缺文字**等也提升了文本检测和识别的难度。
 （参考：https://book.51cto.com/art/202103/652750.htm）
 
-但是深度学习OCR方法将简化整个流程：
-![传统OCR方法演化为深度学习OCR方法](https://s4.51cto.com/oss/202103/25/e573659d820cf5415129002a4fa9fa6a.jpg)
+但是深度学习OCR方法将简化整个流程为字符检测和字符识别两部分。
+<!-- ![传统OCR方法演化为深度学习OCR方法](https://s4.51cto.com/oss/202103/25/e573659d820cf5415129002a4fa9fa6a.jpg) -->
 
 字符识别综述参考文章：
 - [传统OCR识别综述](https://www.cnblogs.com/2020-zhy-jzoj/p/13165052.html)
 
 - [OCR的一般流程和发展绪论](https://my.oschina.net/u/3776677/blog/4444486)
+
+- [OCR文字识别：深度学习算法识别步骤](https://blog.csdn.net/weixin_40546602/article/details/102683902)
+  
+- [深度学习在OCR中的应用](https://tech.meituan.com/2018/06/29/deep-learning-ocr.html)
+- [一文入门深度学习OCR：数据集和算法](https://zhuanlan.zhihu.com/p/356842725)
+
+- [OCR技术简介](https://zhuanlan.zhihu.com/p/45376274)
+
 
 ## 文字检测
 
@@ -126,7 +134,7 @@ another similar picture：
 [Multi-Scale Fully Convolutional Neural Network](https://export.arxiv.org/pdf/1708.03276) 是Chris Tensmeyer 等人于 2017 年提出来的，利用多尺度全卷积神经网络对文档图像进行二值化，并在 DIBCO 和 PLM 这两个公开数据集上均取得了较好的结果。传统的全局或局部阈值忽略了像素点间的排列，边缘检测、马尔可夫随机场等方法对于前景的形状又存在很强的偏置，但是Fully Convolutional Network（FCN）能从训练数据中学习并挖掘出像素点在空间上的联系，而不是依赖于在局部形状上人工设置的偏置。
 
 FCN模型的结构如下：
-![FCN模型结构](img/OCRbookreading/MSF-CNN_architecture.png "FCN模型结构") 
+![FCN模型结构](/img/OCRbookreading/MSF-CNN_architecture.png "FCN模型结构") 
 
 ### 其他方法
 
